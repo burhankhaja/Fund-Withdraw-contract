@@ -2,5 +2,11 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["@chainlink/=lib/chainlink-brownie-contracts/"]
+
+# in order to run bash scripts in foundry  //can be dangerous for compromise
+ffi = true
+
+
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
